@@ -22,7 +22,7 @@ const GlobalHead = props => {
     url = `${url}/${meta.slug}`
     image = meta.image || '/bg_image.jpg'
   }
-  const title = meta?.title || siteConfig('TITLE')
+  const title = 'hello world from wrenchou'
   const description = meta?.description || `${siteInfo?.description}`
   const type = meta?.type || 'website'
   const lang = siteConfig('LANG').replace('-', '_') // Facebook OpenGraph 要 zh_CN 這樣的格式才抓得到語言
